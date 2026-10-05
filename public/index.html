@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>__TITLE__</title>
+  <meta name="description" content="__DESCRIPTION__">
+  <meta name="theme-color" content="#8f2d2d">
+  <meta property="og:title" content="__TITLE__">
+  <meta property="og:description" content="__DESCRIPTION__">
+  <meta property="og:image" content="__IMAGE__">
+  <meta property="og:url" content="__URL__">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#app">Till recepten</a>
+  <header class="top">
+    <div class="frame-wrap top-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span class="brand-name">Mormors lilla röda</span>
+      </a>
+      <form class="search" id="search-form" role="search">
+        <label class="sr-only" for="q">Sök recept</label>
+        <input id="q" type="search" placeholder="Sök recept, råvaror, anteckningar…" autocomplete="off">
+      </form>
+      <a class="btn" href="/nytt">Nytt recept</a>
+    </div>
+  </header>
+  <main id="app" tabindex="-1">
+    <div class="frame-wrap">
+      <p class="loading">Slår upp boken…</p>
+    </div>
+  </main>
+  <footer class="colophon">
+    <div class="frame-wrap foot">
+      <p>Mormors lilla röda. Recepten sparas här, så alla som öppnar boken ser samma sak.</p>
+      <p id="share" hidden></p>
+    </div>
+  </footer>
+  <div id="toast" class="toast" hidden role="status"></div>
+  <script src="/js/app.js"></script>
+  <noscript>Kokboken behöver JavaScript för att bläddra mellan recepten.</noscript>
+</body>
+</html>
