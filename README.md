@@ -10,7 +10,7 @@ python3 server.py
 
 Open http://localhost:8080
 
-The published book, for anyone with the link, is https://naelsh.github.io/mormors_lilla_roda/ once GitHub Pages has finished the first deploy. That copy is for reading. New recipes are added here, then published with `git push`.
+The published book, for anyone with the link, is https://naelsh.github.io/mormors_kokbok/ once GitHub Pages has finished the first deploy. That copy is for reading. New recipes are added here, then published with `git push`.
 
 The terminal also prints an address for other phones and computers on the same Wi-Fi. The computer running the server needs to stay on.
 
@@ -27,8 +27,8 @@ Use another port with `PORT=9000 python3 server.py`.
 - Browse, search, and open a recipe.
 - Change the number of portions and the ingredient amounts follow.
 - Heart a recipe to keep it under Sparade in that browser.
-- Add or change a recipe with Nytt recept. That asks for the editor password.
-- Anyone with the address can read the book. Only someone with the password can add, change, or delete recipes.
+- Add or change a recipe with Nytt recept, from http://localhost:8080 on this computer. That asks for the editor password.
+- Anyone else can read the book. Phones on the Wi-Fi, and the published site, cannot change recipes.
 
 The password is the first line of `data/password`, or the environment variable `COOKBOOK_PASSWORD` if that is set. The password file is not part of the published book. Change it before you put the site online, then restart the server.
 

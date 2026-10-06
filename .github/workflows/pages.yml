@@ -23,20 +23,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Bygg sidan
+        env:
+          SITE_OWNER: ${{ github.repository_owner }}
+          SITE_NAME: ${{ github.event.repository.name }}
         run: |
           mkdir -p site/data
           cp -a public/. site/
           cp data/recipes.json site/data/recipes.json
           touch site/.nojekyll
           python3 - << 'PY'
+          import os
           from pathlib import Path
+          name = os.environ["SITE_NAME"]
+          owner = os.environ["SITE_OWNER"]
+          base = f"/{name}/"
+          url = f"https://{owner}.github.io{base}"
           file = Path("site/index.html")
           text = file.read_text(encoding="utf-8")
           text = text.replace("__TITLE__", "Mormors lilla röda")
           text = text.replace("__DESCRIPTION__", "Familjens receptsamling, med bilder, mängder och anteckningar.")
-          text = text.replace("__IMAGE__", "https://naelsh.github.io/mormors_lilla_roda/favicon.svg")
-          text = text.replace("__URL__", "https://naelsh.github.io/mormors_lilla_roda/")
-          text = text.replace("__BASE__", "/mormors_lilla_roda/")
+          text = text.replace("__IMAGE__", f"{url}favicon.svg")
+          text = text.replace("__URL__", url)
+          text = text.replace("__BASE__", base)
           file.write_text(text, encoding="utf-8")
           PY
       - uses: actions/upload-pages-artifact@v3
