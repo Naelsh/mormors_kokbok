@@ -30,7 +30,7 @@ EDITOR_TOKENS: dict[str, float] = {}
 LOGIN_FAILURES: dict[str, list[float]] = {}
 TOKEN_LOCK = threading.Lock()
 
-CATEGORIES = ["Varmrätt", "Förrätt", "Soppa", "Bakverk", "Efterrätt", "Fika"]
+CATEGORIES = ["Varmrätt", "Förrätt", "Bakverk", "Efterrätt", "Fika"]
 YIELD_UNITS = ["portioner", "bitar", "bullar", "bollar", "stycken"]
 LOCK = threading.Lock()
 

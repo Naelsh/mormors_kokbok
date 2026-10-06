@@ -4,7 +4,7 @@ const EDITOR_KEY = "mlr-editor";
 const state = {
   ready: false,
   recipes: [],
-  categories: ["Varmrätt", "Förrätt", "Soppa", "Bakverk", "Efterrätt", "Fika"],
+  categories: ["Varmrätt", "Förrätt", "Bakverk", "Efterrätt", "Fika"],
   yieldUnits: ["portioner", "bitar", "bullar", "bollar", "stycken"],
   addresses: [],
   query: "",
