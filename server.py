@@ -67,6 +67,11 @@ def client_ip(handler: BaseHTTPRequestHandler) -> str:
     return handler.client_address[0]
 
 
+def editing_on_this_machine(handler: BaseHTTPRequestHandler) -> bool:
+    ip = client_ip(handler)
+    return ip in {"127.0.0.1", "::1"} or ip.startswith("::ffff:127.")
+
+
 def login_blocked(ip: str) -> bool:
     now = time.monotonic()
     with TOKEN_LOCK:
@@ -390,12 +395,18 @@ class Handler(BaseHTTPRequestHandler):
         return token_ok(self.headers.get("Authorization"))
 
     def require_editor(self) -> bool:
+        if not editing_on_this_machine(self):
+            self.send_json({"error": "Recepten kan bara ändras på den här datorn."}, 403)
+            return False
         if self.editor_authorized():
             return True
         self.send_json({"error": "Lösenord krävs för att ändra i boken."}, 401)
         return False
 
     def handle_login(self) -> None:
+        if not editing_on_this_machine(self):
+            self.send_json({"error": "Recepten kan bara ändras på den här datorn."}, 403)
+            return
         data = self.read_json()
         if data is None:
             return

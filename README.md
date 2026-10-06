@@ -27,8 +27,8 @@ Use another port with `PORT=9000 python3 server.py`.
 - Browse, search, and open a recipe.
 - Change the number of portions and the ingredient amounts follow.
 - Heart a recipe to keep it under Sparade in that browser.
-- Add or change a recipe with Nytt recept. That asks for the editor password.
-- Anyone with the address can read the book. Only someone with the password can add, change, or delete recipes.
+- Add or change a recipe with Nytt recept, from http://localhost:8080 on this computer. That asks for the editor password.
+- Anyone else can read the book. Phones on the Wi-Fi, and the published site, cannot change recipes.
 
 The password is the first line of `data/password`, or the environment variable `COOKBOOK_PASSWORD` if that is set. The password file is not part of the published book. Change it before you put the site online, then restart the server.
 

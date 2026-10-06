@@ -109,6 +109,11 @@ function safeSrc(src) {
   return typeof src === "string" && (src.startsWith("/images/") || src.startsWith("/uploads/")) ? src : "";
 }
 
+function onThisComputer() {
+  const host = location.hostname;
+  return host === "localhost" || host === "127.0.0.1" || host === "::1";
+}
+
 function siteBase() {
   const element = document.querySelector("base");
   if (!element) return "";
@@ -378,7 +383,7 @@ function unlockView(back) {
 function editView(id) {
   const recipe = id ? state.recipes.find((item) => item.id === id) : null;
   if (state.readOnly) {
-    return `<div class="page"><h1>Här läser man bara</h1><p class="lede">Den publicerade boken kan inte ta emot ändringar. Lägg till receptet hemma, så syns det här när sidan publiceras igen.</p><p><a href="${esc(sitePath("/"))}">Tillbaka till recepten</a></p></div>`;
+    return `<div class="page"><h1>Här läser man bara</h1><p class="lede">Recepten kan bara ändras när boken öppnas på den här datorn, via localhost.</p><p><a href="${esc(sitePath("/"))}">Tillbaka till recepten</a></p></div>`;
   }
   if (id && !recipe) {
     return `<div class="page"><h1>Det receptet är borta</h1><p><a href="${esc(sitePath("/"))}">Tillbaka till recepten</a></p></div>`;
@@ -850,7 +855,7 @@ async function init() {
     ]);
     if (!recipesResponse.ok) throw new Error("saknas");
     state.recipes = await recipesResponse.json();
-    state.readOnly = false;
+    state.readOnly = !onThisComputer();
     if (infoResponse.ok) {
       const info = await infoResponse.json();
       if (Array.isArray(info.categories)) state.categories = info.categories;
