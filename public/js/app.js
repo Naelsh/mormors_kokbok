@@ -11,6 +11,7 @@ const state = {
   category: "Alla",
   servings: {},
   loadError: "",
+  readOnly: false,
 };
 
 const singular = {
@@ -108,8 +109,41 @@ function safeSrc(src) {
   return typeof src === "string" && (src.startsWith("/images/") || src.startsWith("/uploads/")) ? src : "";
 }
 
+function siteBase() {
+  const element = document.querySelector("base");
+  if (!element) return "";
+  const path = new URL(element.getAttribute("href"), location.origin).pathname;
+  return path.replace(/\/$/, "");
+}
+
+function sitePath(path) {
+  const suffix = path.startsWith("/") ? path : `/${path}`;
+  const base = siteBase();
+  if (!base) return suffix;
+  return suffix === "/" ? `${base}/` : base + suffix;
+}
+
+function appPath() {
+  let path = location.pathname.replace(/\/+$/, "") || "/";
+  const base = siteBase();
+  if (base && (path === base || path.startsWith(`${base}/`))) {
+    path = path.slice(base.length) || "/";
+  }
+  return path || "/";
+}
+
+function restoreDeepLink() {
+  const params = new URLSearchParams(location.search);
+  const saved = params.get("p");
+  if (!saved) return;
+  params.delete("p");
+  const search = params.toString();
+  const target = sitePath(`/${saved.replace(/^\/+/, "")}`);
+  history.replaceState({}, "", search ? `${target}?${search}` : target);
+}
+
 function parseRoute() {
-  const path = location.pathname.replace(/\/+$/, "") || "/";
+  const path = appPath();
   if (path === "/") return { name: "home" };
   if (path === "/nytt") return { name: "edit", id: null };
   let match = path.match(/^\/recept\/([a-z0-9-]+)$/);
@@ -124,7 +158,8 @@ function listUrl() {
   if (state.query) params.set("q", state.query);
   if (state.category !== "Alla") params.set("kat", state.category);
   const search = params.toString();
-  return search ? `/?${search}` : "/";
+  const home = sitePath("/");
+  return search ? `${home}?${search}` : home;
 }
 
 function readUrl() {
@@ -173,7 +208,7 @@ function photo(recipe, className, lazy = false) {
   const src = safeSrc(recipe.image);
   const letter = esc(recipe.title.slice(0, 1));
   if (!src) return `<div class="${className} photo-fallback" aria-hidden="true">${letter}</div>`;
-  return `<img class="${className}" src="${esc(src)}" alt="${esc(recipe.title)}" data-letter="${letter}" ${lazy ? 'loading="lazy"' : ""}>`;
+  return `<img class="${className}" src="${esc(sitePath(src))}" alt="${esc(recipe.title)}" data-letter="${letter}" ${lazy ? 'loading="lazy"' : ""}>`;
 }
 
 function photoFrame(recipe) {
@@ -196,7 +231,7 @@ function authHeaders() {
 function card(recipe) {
   return `<article class="card">
     ${heartButton(recipe)}
-    <a class="card-link" href="/recept/${esc(recipe.id)}">
+    <a class="card-link" href="${esc(sitePath(`/recept/${recipe.id}`))}">
       <div class="card-photo">${photo(recipe, "", true)}</div>
       <div class="card-body">
         <p class="kicker"><span>${esc(recipe.category)}</span><span>Nr ${numberFor(recipe.id)}</span></p>
@@ -221,13 +256,13 @@ function homeView() {
     </header>`;
   if (showSpread) {
     body += `<article class="spread">
-      <a class="spread-photo" href="/recept/${esc(cover.id)}">${photo(cover, "")}</a>
+      <a class="spread-photo" href="${esc(sitePath(`/recept/${cover.id}`))}">${photo(cover, "")}</a>
       <div>
         <p class="kicker"><span>Ur boken</span><span>${esc(cover.category)}</span></p>
         <h2 class="spread-title">${esc(cover.title)}</h2>
         <p class="lede">${esc(cover.summary || "")}</p>
         <p class="meta">${esc(formatTime(cover.minutes))} · ${esc(cover.servings)} ${esc(yieldName(cover.servings, cover.yieldUnit))}</p>
-        <p class="toolbar"><a class="btn" href="/recept/${esc(cover.id)}">Öppna receptet</a></p>
+        <p class="toolbar"><a class="btn" href="${esc(sitePath(`/recept/${cover.id}`))}">Öppna receptet</a></p>
       </div>
     </article>`;
   }
@@ -251,7 +286,7 @@ function homeView() {
 function recipeView(id) {
   const recipe = state.recipes.find((item) => item.id === id);
   if (!recipe) {
-    return `<div class="page"><h1>Det receptet är borta</h1><p><a href="/">Tillbaka till recepten</a></p></div>`;
+    return `<div class="page"><h1>Det receptet är borta</h1><p><a href="${esc(sitePath("/"))}">Tillbaka till recepten</a></p></div>`;
   }
   const current = state.servings[recipe.id] ?? recipe.servings;
   const factor = current / recipe.servings;
@@ -296,7 +331,7 @@ function recipeView(id) {
       </section>
     </div>
     <div class="toolbar no-print">
-      <a class="btn-quiet" href="/redigera/${esc(recipe.id)}">Ändra</a>
+      ${state.readOnly ? "" : `<a class="btn-quiet" href="${esc(sitePath(`/redigera/${recipe.id}`))}">Ändra</a>`}
       <button type="button" class="btn-quiet" data-action="print">Skriv ut</button>
       <button type="button" class="btn-quiet" data-action="copy">Kopiera länken</button>
     </div>
@@ -342,10 +377,13 @@ function unlockView(back) {
 
 function editView(id) {
   const recipe = id ? state.recipes.find((item) => item.id === id) : null;
-  if (id && !recipe) {
-    return `<div class="page"><h1>Det receptet är borta</h1><p><a href="/">Tillbaka till recepten</a></p></div>`;
+  if (state.readOnly) {
+    return `<div class="page"><h1>Här läser man bara</h1><p class="lede">Den publicerade boken kan inte ta emot ändringar. Lägg till receptet hemma, så syns det här när sidan publiceras igen.</p><p><a href="${esc(sitePath("/"))}">Tillbaka till recepten</a></p></div>`;
   }
-  if (!editorToken()) return unlockView(recipe ? `/recept/${recipe.id}` : "/");
+  if (id && !recipe) {
+    return `<div class="page"><h1>Det receptet är borta</h1><p><a href="${esc(sitePath("/"))}">Tillbaka till recepten</a></p></div>`;
+  }
+  if (!editorToken()) return unlockView(recipe ? sitePath(`/recept/${recipe.id}`) : sitePath("/"));
   const categories = state.categories.map((category) => {
     const selected = (recipe ? recipe.category : "Varmrätt") === category ? " selected" : "";
     return `<option value="${esc(category)}"${selected}>${esc(category)}</option>`;
@@ -357,7 +395,8 @@ function editView(id) {
   const ingredients = (recipe ? recipe.ingredients : [{}, {}, {}]).map(ingredientRow).join("");
   const steps = (recipe ? recipe.steps : ["", "", ""]).map(stepRow).join("");
   const src = recipe ? safeSrc(recipe.image) : "";
-  const back = recipe ? `/recept/${recipe.id}` : "/";
+  const preview = src ? sitePath(src) : "";
+  const back = recipe ? sitePath(`/recept/${recipe.id}`) : sitePath("/");
   return `<form class="page editor" id="recipe-form" data-id="${esc(recipe ? recipe.id : "")}" data-image="${esc(src)}" novalidate>
     <p class="kicker"><span>${recipe ? "Ändra" : "Nytt"} recept</span></p>
     <h1>${recipe ? esc(recipe.title) : "Skriv in ett recept"}</h1>
@@ -391,7 +430,7 @@ function editView(id) {
     <select id="yield">${yields}</select>
     <label for="photo">Bild</label>
     <input id="photo" type="file" accept="image/jpeg,image/png,image/webp">
-    <img id="preview" class="preview" alt="" ${src ? `src="${esc(src)}"` : "hidden"}>
+    <img id="preview" class="preview" alt="" ${preview ? `src="${esc(preview)}"` : "hidden"}>
     <p class="stack"><button type="button" class="text-btn" id="clear-image" data-clear-image ${src ? "" : "hidden"}>Ta bort bilden</button></p>
     <p class="hint">En bild från köket gör receptet lättare att känna igen. Stora bilder förminskas innan de sparas.</p>
     <label>Ingredienser</label>
@@ -416,7 +455,7 @@ function view(route) {
   if (route.name === "home") return homeView();
   if (route.name === "recipe") return recipeView(route.id);
   if (route.name === "edit") return editView(route.id);
-  return `<div class="page"><h1>Den sidan finns inte i boken</h1><p><a href="/">Tillbaka till recepten</a></p></div>`;
+  return `<div class="page"><h1>Den sidan finns inte i boken</h1><p><a href="${esc(sitePath("/"))}">Tillbaka till recepten</a></p></div>`;
 }
 
 function setTitle(route) {
@@ -447,10 +486,13 @@ function watchImages() {
 }
 
 function render() {
+  restoreDeepLink();
   readUrl();
   const route = parseRoute();
   document.querySelector("#app").innerHTML = view(route);
   setTitle(route);
+  const add = document.querySelector("[data-add-recipe]");
+  if (add) add.hidden = state.readOnly;
   watchImages();
 }
 
@@ -545,7 +587,7 @@ async function onSubmit(event) {
   try {
     if (photoInput.files[0]) payload.imageData = await shrinkImage(photoInput.files[0]);
     const id = form.dataset.id;
-    const response = await fetch(id ? `/api/recipes/${id}` : "/api/recipes", {
+    const response = await fetch(id ? sitePath(`/api/recipes/${id}`) : sitePath("/api/recipes"), {
       method: id ? "PUT" : "POST",
       headers: authHeaders(),
       body: JSON.stringify(payload),
@@ -559,7 +601,7 @@ async function onSubmit(event) {
     }
     if (!response.ok) throw new Error(data.error || "Det gick inte att spara.");
     await refresh();
-    history.pushState({}, "", `/recept/${data.id}`);
+    history.pushState({}, "", sitePath(`/recept/${data.id}`));
     render();
     window.scrollTo(0, 0);
   } catch (err) {
@@ -573,7 +615,7 @@ async function deleteRecipe(id) {
   const recipe = state.recipes.find((item) => item.id === id);
   const name = recipe ? recipe.title : "receptet";
   if (!confirm(`Ta bort ${name} ur boken?`)) return;
-  const response = await fetch(`/api/recipes/${id}`, { method: "DELETE", headers: authHeaders() });
+  const response = await fetch(sitePath(`/api/recipes/${id}`), { method: "DELETE", headers: authHeaders() });
   if (response.status === 401) {
     sessionStorage.removeItem(EDITOR_KEY);
     render();
@@ -585,14 +627,14 @@ async function deleteRecipe(id) {
     return;
   }
   await refresh();
-  history.pushState({}, "", "/");
+  history.pushState({}, "", sitePath("/"));
   render();
   window.scrollTo(0, 0);
   toast("Receptet är borta ur boken.");
 }
 
 async function refresh() {
-  const response = await fetch("/api/recipes");
+  const response = await fetch(sitePath("/api/recipes"));
   if (!response.ok) throw new Error("Kunde inte läsa recepten.");
   state.recipes = await response.json();
 }
@@ -637,7 +679,7 @@ function closePhoto() {
 async function onUnlock(event) {
   event.preventDefault();
   const field = event.target.querySelector("#editor-password");
-  const response = await fetch("/api/login", {
+  const response = await fetch(sitePath("/api/login"), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ password: field.value }),
@@ -735,7 +777,7 @@ function bind() {
     if (chip) {
       state.category = chip.dataset.cat;
       const url = listUrl();
-      if (location.pathname !== "/") history.pushState({}, "", url);
+      if (appPath() !== "/") history.pushState({}, "", url);
       else history.replaceState({}, "", url);
       render();
       return;
@@ -775,7 +817,7 @@ function bind() {
     if (!state.ready) return;
     state.query = event.target.value;
     const url = listUrl();
-    if (location.pathname !== "/") history.pushState({}, "", url);
+    if (appPath() !== "/") history.pushState({}, "", url);
     else history.replaceState({}, "", url);
     render();
   });
@@ -803,11 +845,12 @@ function bind() {
 async function init() {
   try {
     const [recipesResponse, infoResponse] = await Promise.all([
-      fetch("/api/recipes"),
-      fetch("/api/info"),
+      fetch(sitePath("/api/recipes")),
+      fetch(sitePath("/api/info")),
     ]);
     if (!recipesResponse.ok) throw new Error("saknas");
     state.recipes = await recipesResponse.json();
+    state.readOnly = false;
     if (infoResponse.ok) {
       const info = await infoResponse.json();
       if (Array.isArray(info.categories)) state.categories = info.categories;
@@ -816,7 +859,14 @@ async function init() {
     }
     fillShare();
   } catch {
-    state.loadError = "Kokboken svarar inte. Starta den med python3 server.py och ladda om sidan.";
+    try {
+      const response = await fetch(sitePath("/data/recipes.json"));
+      if (!response.ok) throw new Error("saknas");
+      state.recipes = await response.json();
+      state.readOnly = true;
+    } catch {
+      state.loadError = "Kokboken svarar inte. Starta den med python3 server.py och ladda om sidan.";
+    }
   }
   state.ready = true;
   render();

@@ -10,6 +10,8 @@ python3 server.py
 
 Open http://localhost:8080
 
+The published book, for anyone with the link, is https://naelsh.github.io/mormors_lilla_roda/ once GitHub Pages has finished the first deploy. That copy is for reading. New recipes are added here, then published with `git push`.
+
 The terminal also prints an address for other phones and computers on the same Wi-Fi. The computer running the server needs to stay on.
 
 If a phone on the same Wi-Fi cannot connect, the firewall may be blocking the port:

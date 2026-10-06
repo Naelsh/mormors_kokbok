@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>Mormors lilla röda</title>
+  <script>
+    (function () {
+      var pages = location.hostname.endsWith(".github.io");
+      var base = pages ? "/mormors_lilla_roda" : "";
+      var path = location.pathname;
+      if (base && path.indexOf(base) === 0) path = path.slice(base.length);
+      path = path.replace(/^\/+/, "");
+      location.replace(base + "/?p=" + encodeURIComponent(path));
+    })();
+  </script>
+</head>
+<body>
+  <p>Slår upp boken…</p>
+</body>
+</html>

@@ -340,6 +340,7 @@ def page_for(path: str, host: str) -> bytes:
     html = html.replace("__DESCRIPTION__", esc(description))
     html = html.replace("__IMAGE__", esc(f"http://{host}{image}"))
     html = html.replace("__URL__", esc(f"http://{host}{path or '/'}"))
+    html = html.replace("__BASE__", "/")
     return html.encode("utf-8")
 
 

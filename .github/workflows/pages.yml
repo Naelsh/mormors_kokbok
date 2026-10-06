@@ -1,0 +1,46 @@
+name: Publicera
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bygg sidan
+        run: |
+          mkdir -p site/data
+          cp -a public/. site/
+          cp data/recipes.json site/data/recipes.json
+          touch site/.nojekyll
+          python3 - << 'PY'
+          from pathlib import Path
+          file = Path("site/index.html")
+          text = file.read_text(encoding="utf-8")
+          text = text.replace("__TITLE__", "Mormors lilla röda")
+          text = text.replace("__DESCRIPTION__", "Familjens receptsamling, med bilder, mängder och anteckningar.")
+          text = text.replace("__IMAGE__", "https://naelsh.github.io/mormors_lilla_roda/favicon.svg")
+          text = text.replace("__URL__", "https://naelsh.github.io/mormors_lilla_roda/")
+          text = text.replace("__BASE__", "/mormors_lilla_roda/")
+          file.write_text(text, encoding="utf-8")
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
