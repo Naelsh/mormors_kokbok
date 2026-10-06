@@ -1,4 +1,4 @@
-# Mormors lilla röda
+# Mormors Kokbok
 
 A family cookbook you can open in a browser and share on the home network. The pages are in Swedish.
 
