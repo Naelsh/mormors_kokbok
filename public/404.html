@@ -6,7 +6,8 @@
   <script>
     (function () {
       var pages = location.hostname.endsWith(".github.io");
-      var base = pages ? "/mormors_lilla_roda" : "";
+      var part = pages ? (location.pathname.split("/").filter(Boolean)[0] || "") : "";
+      var base = part ? "/" + part : "";
       var path = location.pathname;
       if (base && path.indexOf(base) === 0) path = path.slice(base.length);
       path = path.replace(/^\/+/, "");
