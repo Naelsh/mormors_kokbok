@@ -329,6 +329,20 @@ button.zoom-photo {
   transition: transform 0.45s ease;
 }
 
+.card-photo .photo-set, .spread-photo .photo-set {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  height: 100%;
+  gap: 2px;
+}
+
+.card-photo .photo-set img, .spread-photo .photo-set img {
+  height: 100%;
+  min-width: 0;
+  aspect-ratio: auto;
+}
+
 .card:hover img { transform: scale(1.04); }
 
 .card-body { padding: 0.85rem 0.95rem 1.05rem; }
