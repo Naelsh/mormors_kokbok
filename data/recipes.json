@@ -3740,5 +3740,3115 @@
       "Vispa äggvitorna och vänd ner dem.",
       "Grädda i 175° i 40 minuter."
     ]
+  },
+  {
+    "id": "sommarkaldolmar",
+    "title": "Sommarkåldolmar",
+    "category": "Varmrätt",
+    "summary": "Kåldolmar med fläskfärs och timjan, för 4 personer, ugnsstekta i cirka 30 minuter.",
+    "note": "",
+    "credit": "Dan Strandqvist",
+    "minutes": 90,
+    "servings": 4,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_114844.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "vitkålshuvud"
+      },
+      {
+        "qty": 500,
+        "unit": "g",
+        "item": "fläskfärs"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "ströbröd"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "koncentrerad kalvfond"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "finhackad färsk timjan"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "salt och peppar"
+      },
+      {
+        "qty": 3,
+        "unit": "msk",
+        "item": "sirap"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "soja"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "vatten, till sojan"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "vätska från kålen, till såsen"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "grädde, gärna magrare, till såsen"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "kalvfond, till såsen"
+      },
+      {
+        "qty": 1.5,
+        "unit": "msk",
+        "item": "majstärkelse, till såsen"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "vatten, till majsstärkelsen"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "kinesisk soja, till såsen"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "kokt potatis och rårörda lingon, att äta till"
+      }
+    ],
+    "steps": [
+      "Skär bort rotstocken. Koka kålhuvudet i en stor kastrull tills det går att lossa blad för blad. Tunna ur den tjocka huvudnerven.",
+      "Blanda fläskfärs med ägg, ströbröd, fond, timjan, salt och peppar. Lägg 3 msk färs på varje blad, vik in kanterna och rulla ihop. Lägg dolmarna i en långpanna.",
+      "Ringla över sirap och soja uttunnad med vatten. Stek i 175° i cirka 30 minuter.",
+      "Koka upp 3 dl kålspad med grädde och fond. Red av med majsstärkelse löst i vatten och sjuda såsen i 5 minuter. Smaka av med soja, salt och peppar."
+    ]
+  },
+  {
+    "id": "porterstek",
+    "title": "Porterstek",
+    "category": "Varmrätt",
+    "summary": "Fransyska eller högrev kokt i porter, soja och svartvinbärssaft i 1 ½ timme.",
+    "note": "Raden med 7 stycken är svårtydd och läst som enbär. Nederst står att det serveras till en gele, möjligen rönnbärsgelé. Jämför med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 90,
+    "servings": 6,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_114856.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "kg",
+        "item": "fransyska eller högrev"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "flaska porter"
+      },
+      {
+        "qty": 0.75,
+        "unit": "dl",
+        "item": "kinesisk soja"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "svartvinbärssaft"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "skivade lökar"
+      },
+      {
+        "qty": 7,
+        "unit": "st",
+        "item": "enbär"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsk",
+        "item": "vitpepparkorn"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "ingefära"
+      },
+      {
+        "qty": 3,
+        "unit": "st",
+        "item": "köttbuljongtärningar"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "vatten"
+      },
+      {
+        "qty": 5,
+        "unit": "msk",
+        "item": "vetemjöl, till såsen"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "matlagningsgrädde, till såsen"
+      }
+    ],
+    "steps": [
+      "Koka spadet och lägg i köttet. Låt det koka 1 ½ timme och vänd en gång.",
+      "Sila spadet och mät upp 8 dl vätska. Red av med vetemjöl och matlagningsgrädde."
+    ]
+  },
+  {
+    "id": "frasig-paj-med-rakor-och-musslor",
+    "title": "Frasig paj med räkor och musslor",
+    "category": "Varmrätt",
+    "summary": "Pajskal av färdig smördeg med sparris, ägg, tomat, musslor och räkor. 4–6 personer, cirka 40 minuter.",
+    "note": "",
+    "credit": "Allers",
+    "minutes": 40,
+    "servings": 6,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_114919.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "rulle färsk smördeg"
+      },
+      {
+        "qty": 500,
+        "unit": "g",
+        "item": "gula torkade ärter"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "knippe sparris"
+      },
+      {
+        "qty": 3,
+        "unit": "st",
+        "item": "hårdkokta ägg"
+      },
+      {
+        "qty": 8,
+        "unit": "st",
+        "item": "tomater, hela, blandade sorter"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "musslor i vatten, avrunnen vikt"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "ricottaost"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "item": "riven färsk pepparrot"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "crème fraiche"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "skalade räkor"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "item": "röd stenbitsrom"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "item": "svart stenbitsrom"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "chiliflakes"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "några kvistar färsk timjan"
+      }
+    ],
+    "steps": [
+      "Sätt ugnen på 200°. Klä en smord pajform med smördegen och förgrädda skalet i cirka 15 minuter. Plocka bort papperet.",
+      "Häll bort ärterna och spara dem till nästa pajbak. Koka sparrisen 3–4 minuter och skär i bitar. Skiva äggen och halvera tomaterna. Låt musslorna rinna av.",
+      "Blanda ricotta, pepparrot och crème fraiche. Bred ut blandningen i skalet och spara lite till garnering.",
+      "Fyll med sparris, ägg, tomat, musslor och räkor. Garnera med stenbitsrom, chiliflakes och timjan."
+    ]
+  },
+  {
+    "id": "rustik-potatis-och-rodbetspaj",
+    "title": "Rustik potatis- och rödbetspaj",
+    "category": "Varmrätt",
+    "summary": "Vegetarisk paj med kokt potatis, rödbetor, cheddar och getost. 4 personer, cirka 1 timme. Pajdegen står på nästa bild.",
+    "note": "Receptet börjar på första bilden och pajdegen ligger på den andra.",
+    "credit": "Allers",
+    "minutes": 60,
+    "servings": 4,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_114919.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "dubbel sats pajdeg, se grundreceptet"
+      },
+      {
+        "qty": 600,
+        "unit": "g",
+        "item": "kokt potatis"
+      },
+      {
+        "qty": 400,
+        "unit": "g",
+        "item": "kokta rödbetor"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "stora rödlökar"
+      },
+      {
+        "qty": 175,
+        "unit": "g",
+        "item": "getost"
+      },
+      {
+        "qty": 5,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 5,
+        "unit": "dl",
+        "item": "grädde"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "riven lagrad cheddarost"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "finhackad rosmarin"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "salt och peppar"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "chiliflakes"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "kapris"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "hackad persilja"
+      }
+    ],
+    "steps": [
+      "Gör pajdegen enligt grundreceptet på den andra bilden. Kavla ut den tunt, klä en smord mellanstor ugnsform och ställ i frysen i 15 minuter.",
+      "Sätt ugnen på 175°. Skär potatis och rödbetor i mindre bitar. Skär löken i klyftor och fördela ovanpå. Skiva getosten över grönsakerna.",
+      "Vispa ihop ägg, grädde och ost. Krydda med rosmarin, salt och peppar. Häll äggstanningen över och grädda i cirka 35 minuter.",
+      "Strö chiliflakes, kapris och hackad persilja över. Servera varm eller ljummen."
+    ],
+    "images": [
+      "/images/bok/20261006_114919.jpg",
+      "/images/bok/20261006_114927.jpg"
+    ]
+  },
+  {
+    "id": "grundrecept-pajdeg",
+    "title": "Grundrecept pajdeg",
+    "category": "Bakverk",
+    "summary": "Snabb pajdeg på smör, vetemjöl och kallt vatten. Räcker till 1 sats, och det finns en magrare variant på samma bild.",
+    "note": "På samma bild står också en magrare deg: 50 g smör, 3 dl vetemjöl, 1 dl kesella lätt eller 4 msk iskallt vatten.",
+    "credit": "Allers",
+    "minutes": 15,
+    "servings": 1,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_114927.jpg",
+    "ingredients": [
+      {
+        "qty": 125,
+        "unit": "g",
+        "item": "smör"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 3,
+        "unit": "msk",
+        "item": "iskallt vatten"
+      }
+    ],
+    "steps": [
+      "Blanda snabbt smör, vetemjöl och iskallt vatten till en deg. Använd gärna matberedare.",
+      "Vira in degen i plastfilm eller lägg den i en plastpåse och ställ den kallt i cirka 30 minuter."
+    ]
+  },
+  {
+    "id": "briepaj-med-lok-och-skinka",
+    "title": "Briepaj med lök och skinka",
+    "category": "Varmrätt",
+    "summary": "Paj med purjolök, champinjoner och varmrökt skinka. 4 personer, cirka 55 minuter.",
+    "note": "",
+    "credit": "Allers",
+    "minutes": 55,
+    "servings": 4,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_114927.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "sats pajdeg, se grundreceptet"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "gul lök"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "rödlök"
+      },
+      {
+        "qty": 10,
+        "unit": "cm",
+        "item": "purjolök"
+      },
+      {
+        "qty": 4,
+        "unit": "st",
+        "item": "vitlöksklyftor"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "item": "färska champinjoner"
+      },
+      {
+        "qty": 0.5,
+        "unit": "dl",
+        "item": "olivolja"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "salt och peppar"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "varmrökt skinka"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "brieost"
+      },
+      {
+        "qty": 3,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "grädde"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "sallad och olivolja, till servering"
+      }
+    ],
+    "steps": [
+      "Gör pajdegen enligt grundreceptet. Kavla ut den och klä en smord form, gärna med löstagbar botten. Ställ i frysen i 15 minuter.",
+      "Sätt ugnen på 175°. Stek lök och svamp i olivolja i 3–5 minuter. Krydda med salt och peppar och fördela i pajskalet.",
+      "Skär skinkan i tärningar och osten i skivor, cirka 7–10 mm, och lägg ovanpå.",
+      "Blanda ägg och grädde, krydda och häll över. Grädda i cirka 35 minuter. Låt svalna något och servera med sallad."
+    ]
+  },
+  {
+    "id": "minipajer-med-pikant-fyllning",
+    "title": "Minipajer med pikant fyllning",
+    "category": "Förrätt",
+    "summary": "Små pajer med ricotta, soltorkad tomat och oliver. 4 personer, cirka 55 minuter.",
+    "note": "Sista raderna på klippet är trånga. Jämför gräddningen med fotot.",
+    "credit": "Allers",
+    "minutes": 55,
+    "servings": 4,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_114927.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "sats pajdeg, se grundreceptet"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "grädde"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "ricottaost"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "salt och peppar"
+      },
+      {
+        "qty": 10,
+        "unit": "st",
+        "item": "svarta oliver utan kärnor"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "finstrimlad soltorkad tomat"
+      }
+    ],
+    "steps": [
+      "Gör pajdegen enligt grundreceptet och klä små formar, till exempel en muffinsplåt.",
+      "Blanda ägg, grädde och ricotta. Krydda och fördela i formarna tillsammans med oliver och soltorkad tomat.",
+      "Grädda tills pajerna är gyllene. Jämför tiden med fotot."
+    ]
+  },
+  {
+    "id": "ekenastarta",
+    "title": "Ekenästårta",
+    "category": "Fika",
+    "summary": "Mördeg med mandelfyllning, gräddad i 175–200° i cirka 30 minuter.",
+    "note": "",
+    "credit": "Mormors kokbok",
+    "minutes": 30,
+    "servings": 8,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_114946.jpg",
+    "ingredients": [
+      {
+        "qty": 75,
+        "unit": "g",
+        "item": "smör, till degen"
+      },
+      {
+        "qty": 0.5,
+        "unit": "dl",
+        "item": "socker, till degen"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "äggula, till degen"
+      },
+      {
+        "qty": 1.75,
+        "unit": "dl",
+        "item": "vetemjöl, till degen"
+      },
+      {
+        "qty": 125,
+        "unit": "g",
+        "item": "smält smör, till fyllningen"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "socker, till fyllningen"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "ägg, till fyllningen"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "äggvita, till fyllningen"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "mald mandel, till fyllningen"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "bittermandel och vaniljsocker, till fyllningen"
+      }
+    ],
+    "steps": [
+      "Rör ihop smör, socker, äggula och vetemjöl och klä en smord form med löstagbar kant.",
+      "Blanda fyllningen och häll den i formen.",
+      "Grädda i 175–200° i cirka 30 minuter. Strö florsocker över när kakan kallnat."
+    ]
+  },
+  {
+    "id": "norsk-fyrtornskaka",
+    "title": "Norsk fyrtornskaka",
+    "category": "Fika",
+    "summary": "Mördegskaka med mandel, kardemumma och vanilj. Degen vilar en timme och gräddas i 175°.",
+    "note": "Receptet är ett brev till Ingrid och fortsätter på nästa bild. Några ord är överstrukna. Undertecknat Hillen.",
+    "credit": "Hillen",
+    "minutes": 105,
+    "servings": 12,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115010.jpg",
+    "ingredients": [
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "smör eller margarin, till mördegen"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "socker, till mördegen"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg, till mördegen"
+      },
+      {
+        "qty": 3.5,
+        "unit": "dl",
+        "item": "vetemjöl, till mördegen"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "sötmandel, till fyllningen"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "smör eller margarin, till fyllningen"
+      },
+      {
+        "qty": 1.5,
+        "unit": "dl",
+        "item": "socker, till fyllningen"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "ägg, till fyllningen"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsk",
+        "item": "mald kardemumma"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsk",
+        "item": "vaniljsocker"
+      },
+      {
+        "qty": 1,
+        "unit": "krm",
+        "item": "bakpulver"
+      }
+    ],
+    "steps": [
+      "Vispa sönder ägget till mördegen och spara 1 msk till penslingen. Arbeta ihop mördegen och låt den vila kallt en timme.",
+      "Rör socker och smör till fyllningen så det blir vitt och poröst. Tillsätt ett ägg i sänder och rör kraftigt. Rör ner den malda mandeln med vaniljsocker, kardemumma och bakpulver.",
+      "Kavla ut två tredjedelar av mördegen och klä en smord form med löstagbar kant, så degen går cirka 3 cm upp på kanten. Bred ut fyllningen och grädda cirka 20 minuter i 175°.",
+      "Kavla ut resten och skär remsor till ett rutmönster. Lägg en remsa runt kanten. Pensla med ägg och grädda ytterligare cirka 25 minuter.",
+      "Låt kakan svalna något innan den lossas ur formen."
+    ],
+    "images": [
+      "/images/bok/20261006_115010.jpg",
+      "/images/bok/20261006_115017.jpg"
+    ]
+  },
+  {
+    "id": "moussaka",
+    "title": "Moussaka",
+    "category": "Varmrätt",
+    "summary": "Köttfärs med lök, morot och tomat, varvad med aubergine. 200° i 40 minuter.",
+    "note": "Mängden morot ser ut som 3/4, och ostsåsen är kortfattad. Jämför med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 40,
+    "servings": 4,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115033.jpg",
+    "ingredients": [
+      {
+        "qty": 500,
+        "unit": "g",
+        "item": "köttfärs"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "hackade lökar"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "purjolök, hel"
+      },
+      {
+        "qty": 0.75,
+        "unit": "st",
+        "item": "morötter, hackade"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsk",
+        "item": "timjan eller basilika"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "salt och peppar"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "burk krossade tomater"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "tomatpuré"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "auberginer, äggplantor"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "smör, mjöl och mjölk till ostsåsen"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "riven ost, till ostsåsen"
+      }
+    ],
+    "steps": [
+      "Bryn köttfärsen med lök, purjolök och morot. Smaka av med salt, peppar och timjan eller basilika.",
+      "Koka ihop med krossade tomater och tomatpuré.",
+      "Skiva auberginerna på längden och lägg dem i en långpanna med hälften av köttfärsen.",
+      "Gör en ostsås på smör, mjöl, mjölk och riven ost. Häll över och grädda i 200° i 40 minuter."
+    ]
+  },
+  {
+    "id": "inbakad-sjotunga",
+    "title": "Inbakad sjötunga",
+    "category": "Varmrätt",
+    "summary": "Sjötunga i smördeg med räkor, för 4 personer. Kallas Ministerns favorit. Bilden på anrättningen ligger på nästa foto.",
+    "note": "Överst på receptsidan står Hälleflundra och Hasse. Vitvinssåsen på samma sida är ett eget recept. Reportaget fortsätter på den andra bilden.",
+    "credit": "Mormors kokbok",
+    "minutes": 90,
+    "servings": 4,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115053.jpg",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "st",
+        "item": "filéer av sjötunga, à 100 g, eller rödtunga"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "salt"
+      },
+      {
+        "qty": 2,
+        "unit": "krm",
+        "item": "vitpeppar"
+      },
+      {
+        "qty": 2.5,
+        "unit": "dl",
+        "item": "torrt vitt vin"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "paket djupfrysta smördegsplattor, 425 g"
+      },
+      {
+        "qty": 20,
+        "unit": "st",
+        "item": "färska eller frysta, tinade räkor, cirka 400 g med skal"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg, till pensling"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "item": "sockerärter, tillbehör"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "item": "löjrom eller annan rom, tillbehör"
+      }
+    ],
+    "steps": [
+      "Lägg fiskfiléerna i en låg vid kastrull och krydda med salt och vitpeppar. Slå på vin så att det täcker fisken, cirka 2 ½ dl. Sjud fisken sakta 1–2 minuter. Den får inte bli genomkokt.",
+      "Ta upp fisken och låt den rinna av på bakplåtspapper. Sätt ugnen på 225°.",
+      "Lägg ut smördegsplattorna och låt dem tina. Kavla ut två plattor till cirka 30×30 cm. Skär ut fyra fiskar, cirka 18×9 cm, och lägg på plåt.",
+      "Fördela fisken och hälften av räkorna på smördegen. Kavla ut resten och täck sjötungan och räkorna. Tryck till kanterna.",
+      "Kavla ut resterande deg och skär ut fyra fenor till varje fisk. Pensla dem med ägg och sätt fast dem. Rulla små ögon av deg, pensla och tryck dit.",
+      "Pensla fiskarna med uppvispat ägg. Grädda mitt i ugnen i 15–20 minuter. Servera med resterande räkor."
+    ],
+    "images": [
+      "/images/bok/20261006_115053.jpg",
+      "/images/bok/20261006_115109.jpg"
+    ]
+  },
+  {
+    "id": "vitvinssas",
+    "title": "Vitvinssås",
+    "category": "Varmrätt",
+    "summary": "Sås till den inbakade sjötungan, för 4 personer. Sjuds i cirka 30 minuter.",
+    "note": "Hör till inbakad sjötunga på samma bild.",
+    "credit": "Mormors kokbok",
+    "minutes": 40,
+    "servings": 4,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115053.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "schalottenlökar"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "smör"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "vatten"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "fiskbuljongtärning"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "torrt vitt vin"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "vispgrädde"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "citronsalt"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsk",
+        "item": "fransk senap"
+      },
+      {
+        "qty": 0.5,
+        "unit": "dl",
+        "item": "bakad gräslök"
+      },
+      {
+        "qty": 1,
+        "unit": "krm",
+        "item": "salt"
+      },
+      {
+        "qty": 2,
+        "unit": "krm",
+        "item": "svartpeppar"
+      }
+    ],
+    "steps": [
+      "Skala och hacka schalottenlökarna. Fräs dem i smör utan att de får färg.",
+      "Tillsätt vatten, fiskbuljongtärning och vin. Koka samman till cirka 2 dl.",
+      "Häll i vispgrädden och låt såsen koka samman i cirka 30 minuter, tills den är tjock och simmig.",
+      "Sila såsen. Smaksätt med citronsalt, senap, salt och svartpeppar. Gräslöken tillsätts strax före servering."
+    ]
+  },
+  {
+    "id": "vaniljhorn",
+    "title": "Vaniljhorn",
+    "category": "Fika",
+    "summary": "Horn av deg fyllda med vaniljkräm, gräddade i 225–250° i cirka 20 minuter.",
+    "note": "Degens ingredienser står inte på den här sidan. Jämför med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 40,
+    "servings": 12,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115203.jpg",
+    "ingredients": [
+      {
+        "qty": null,
+        "unit": "",
+        "item": "deg, se fotot om den står på en annan sida"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "fast vaniljkräm"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg, till pensling"
+      }
+    ],
+    "steps": [
+      "Kavla ut degen till en långsmal rektangel och dela den i två långsmala delar. Lägg den ena på en plåt med bakplåtspapper.",
+      "Forma degen som ett horn och fyll med en fast vaniljkräm. Tryck till kanterna. Stötta gärna med en rulle tillknycklad aluminiumfolie.",
+      "Jäs väl och långsamt på ett ej för varmt ställe. Pensla med ägg på de grullade kanterna och grädda i 225–250° i cirka 20 minuter."
+    ]
+  },
+  {
+    "id": "kammar",
+    "title": "Kammar",
+    "category": "Fika",
+    "summary": "Mandelfyllda kambitar, gräddade i 250–275° i 5–8 minuter.",
+    "note": "Degen kan också skäras i smalare strimlor, snurras till snurror och gräddas i pappersformar. Lägg på en liten klick glasyr när de svalnat.",
+    "credit": "Mormors kokbok",
+    "minutes": 25,
+    "servings": 16,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115203.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "skorpmjöl"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "kokande vatten"
+      },
+      {
+        "qty": 20,
+        "unit": "st",
+        "item": "malda sötmandlar"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "bittermandlar"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "socker"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "margarin"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "hackad mandel, att strö på"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg, till pensling"
+      }
+    ],
+    "steps": [
+      "Gör en fyllning av skorpmjöl, kokande vatten, mandel, socker och margarin.",
+      "Bred fyllningen på den andra halvan av degen och vik den på tre från långsidan. Skär av cirka 5 cm långa bitar.",
+      "Skär fyra–fem jack i varje bit. Jäs långsamt, pensla och strö på lite hackad mandel. Grädda i 250–275° i 5–8 minuter."
+    ]
+  },
+  {
+    "id": "biskopsgifflar",
+    "title": "Biskopsgifflar",
+    "category": "Fika",
+    "summary": "32 gifflar med aprikosmos, gräddade i 250° i 5–8 minuter.",
+    "note": "Margarinet står som 75–100 g och jästen som 30–50 g.",
+    "credit": "Mormors kokbok",
+    "minutes": 90,
+    "servings": 32,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115206.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "mjölk"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "item": "margarin"
+      },
+      {
+        "qty": 30,
+        "unit": "g",
+        "item": "jäst"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "socker"
+      },
+      {
+        "qty": 1,
+        "unit": "l",
+        "item": "vetemjöl, knappt, cirka 1 kg"
+      },
+      {
+        "qty": 1.5,
+        "unit": "dl",
+        "item": "aprikosmos eller marmelad, cirka 1 barnmatsburk"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg, till pensling"
+      },
+      {
+        "qty": 0.75,
+        "unit": "dl",
+        "item": "florsocker, till glasyren"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "vatten, till glasyren"
+      }
+    ],
+    "steps": [
+      "Blanda alla ingredienser till degen utom mjölet. Ingredienserna ska vara kalla. Sätt till vetemjöl i sänder tills en lös deg. Arbeta den smidig.",
+      "Dela degen i fyra delar och kavla varje del till en rundel. Sporra ut åtta snibbar ur varje rundel, lägg på lite mos och rulla ihop till en giffel.",
+      "Jäs långsamt, i ett ej för varmt utrymme, till dubbel storlek. Pensla med ägg och grädda i 250° i 5–8 minuter.",
+      "Glasera när gifflarna svalnat."
+    ]
+  },
+  {
+    "id": "vaniljbullar-med-vaniljkram",
+    "title": "Vaniljbullar med vaniljkräm",
+    "category": "Fika",
+    "summary": "18 bullar fyllda med vaniljkräm, gräddade i 250° i cirka 8 minuter. Receptet börjar nederst på första bilden.",
+    "note": "Rubriken syns nederst på första bilden, och hela receptet står på den andra. Smöret står som 75–100 g. Marsankräm från paket kan användas i stället för vaniljkrämen.",
+    "credit": "Mormors kokbok",
+    "minutes": 90,
+    "servings": 18,
+    "yieldUnit": "bullar",
+    "featured": false,
+    "image": "/images/bok/20261006_115206.jpg",
+    "ingredients": [
+      {
+        "qty": 2.5,
+        "unit": "dl",
+        "item": "mjölk"
+      },
+      {
+        "qty": 25,
+        "unit": "g",
+        "item": "jäst"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "item": "smör eller margarin"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsk",
+        "item": "salt"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 600,
+        "unit": "g",
+        "item": "vetemjöl, 1 liter"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "grädde, till vaniljkrämen"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "vetemjöl, till vaniljkrämen"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "äggulor, till vaniljkrämen"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "socker, till vaniljkrämen"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "vaniljsocker, till vaniljkrämen"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "margarin eller smör, till pensling"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "strösocker"
+      }
+    ],
+    "steps": [
+      "Gör vetedegen som vanligt och låt den jäsa. Blanda under tiden grädden, mjölet, äggulorna och sockret i en kastrull och sjuda krämen under kraftig vispning. Smaksätt med vaniljsocker och låt den kallna.",
+      "Kavla ut degen till en långsmal kaka, cirka 1 ½ cm tjock och drygt dubbelt så bred som det runda måttet.",
+      "Markera en rad med rundlar. Lägg på en klick vaniljkräm, vik över degen och tag ut bullarna med en snittare.",
+      "Jäs och grädda i 250° i cirka 8 minuter. Pensla med margarin direkt ur ugnen och doppa i strösocker."
+    ],
+    "images": [
+      "/images/bok/20261006_115206.jpg",
+      "/images/bok/20261006_115213.jpg"
+    ]
+  },
+  {
+    "id": "vetelangd-med-honungsfyllning",
+    "title": "Vetelängd med honungsfyllning",
+    "category": "Fika",
+    "summary": "En halv sats vetebröd med hasselnöt och honung, gräddad i 225° i cirka 15 minuter.",
+    "note": "Samma sida är fotograferad två gånger. Den andra bilden visar också slutet av wienerbrödet på sidan intill.",
+    "credit": "Mormors kokbok",
+    "minutes": 70,
+    "servings": 12,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115220.jpg",
+    "ingredients": [
+      {
+        "qty": 0.5,
+        "unit": "st",
+        "item": "sats fint vetebröd"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "item": "margarin, till fyllningen"
+      },
+      {
+        "qty": 0.5,
+        "unit": "dl",
+        "item": "honung, till fyllningen"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "malda hasselnötter"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "rivet skal av ½–1 citron"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "honung, till pensling"
+      },
+      {
+        "qty": 0.5,
+        "unit": "st",
+        "item": "rivet skal av citron, till pensling"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "florsocker"
+      }
+    ],
+    "steps": [
+      "Gör degen enligt grundreceptet och låt den jäsa. Smält under tiden margarin och honung och blanda ner hasselnötter och citronskal. Låt massan svalna.",
+      "Kavla ut degen till en avlång kaka och bred på fyllningen. Rulla ihop och dela i två bitar.",
+      "Lägg bitarna i en smord 1 ½ liters form med skarven neråt. Klipp längderna och låt dem jäsa till dubbel storlek.",
+      "Pensla med smält honung och strö på rivet citronskal. Grädda i 225° i cirka 15 minuter. Pudra över med florsocker."
+    ],
+    "images": [
+      "/images/bok/20261006_115220.jpg",
+      "/images/bok/20261006_115227.jpg"
+    ]
+  },
+  {
+    "id": "syskonkaka",
+    "title": "Syskonkaka",
+    "category": "Fika",
+    "summary": "Vetebröd med apelsinmarmelad, gräddat i 200–225° i 15–20 minuter.",
+    "note": "Klippet är vikt. Jämför mängderna med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 60,
+    "servings": 12,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115234.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "sats fint vetebröd"
+      },
+      {
+        "qty": 3,
+        "unit": "msk",
+        "item": "margarin"
+      },
+      {
+        "qty": 1.5,
+        "unit": "dl",
+        "item": "apelsinmarmelad eller påse syltade apelsinskal"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg, till pensling"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "pärlsocker"
+      }
+    ],
+    "steps": [
+      "Gör degen enligt grundreceptet och dela den i två delar. Kavla ut varje del till en avlång kaka och bred på fyllningen. Rulla samman och skär i bitar.",
+      "Klipp ut en cirkel av ett smörpapper och lägg i en smord form med botten och kanter. Ställ ner bitarna, men inte för tätt.",
+      "Jäs, pensla med ägg, strö på pärlsocker och grädda i 200–225° i 15–20 minuter. Överblivna degbitar kan gräddas i pappersformar."
+    ]
+  },
+  {
+    "id": "snacka",
+    "title": "Snäcka",
+    "category": "Fika",
+    "summary": "Den fyllda syskonkakdegen lagd som en snäcka och gräddad på samma sätt.",
+    "note": "",
+    "credit": "Mormors kokbok",
+    "minutes": 60,
+    "servings": 8,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115234.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "fylld deg, som till syskonkakan"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg, till pensling"
+      }
+    ],
+    "steps": [
+      "Rulla samman den fyllda degen och lägg den som en snäcka i en form, helst med löstagbar kant.",
+      "Jäs, pensla med ägg och grädda på samma sätt som syskonkakan."
+    ]
+  },
+  {
+    "id": "wienerbrod",
+    "title": "Wienerbröd",
+    "category": "Fika",
+    "summary": "35 stycken, eller 1 krans och 15 små bröd. Metoden fortsätter på nästa bild.",
+    "note": "Receptet börjar på första bilden och fortsätter i vänsterkanten på den andra, som annars visar vetelängden.",
+    "credit": "Mormors kokbok",
+    "minutes": 90,
+    "servings": 35,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115234.jpg",
+    "ingredients": [
+      {
+        "qty": 2.5,
+        "unit": "dl",
+        "item": "kall mjölk"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "item": "jäst"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "socker"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 8,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "item": "margarin"
+      }
+    ],
+    "steps": [
+      "Lös jästen i den kalla mjölken och sätt till socker, ägg och vetemjöl. Arbeta till en smidig deg. Kavla ut den till en rektangel.",
+      "Kavla ut margarinet mellan två smörpapper till en kaka som är ungefär två tredjedelar så stor. Lägg margarinet på degen och vik ihop på tre som en servett. Se till att kanterna sluter till.",
+      "Börja vika i den del som saknar fett. Vänd degen så att ryggen kommer emot dig. Kavla med lätt hand. Vik likadant igen och upprepa kavlingen tre gånger.",
+      "Lägg in degen i kylskåpet en kvart innan utbakningen. Jämför resten av metoden med den andra bilden."
+    ],
+    "images": [
+      "/images/bok/20261006_115234.jpg",
+      "/images/bok/20261006_115227.jpg"
+    ]
+  },
+  {
+    "id": "fladerbarssylt",
+    "title": "Fläderbärssylt",
+    "category": "Fika",
+    "summary": "Sylt på fläderbär och syrliga äpplen, cirka 1 liter.",
+    "note": "Sidan ligger på tvären. Jämför med fotot.",
+    "credit": "Grevinnans goda",
+    "minutes": 45,
+    "servings": 1,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115255.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "l",
+        "item": "fläderbär"
+      },
+      {
+        "qty": 0.5,
+        "unit": "kg",
+        "item": "syrliga äpplen"
+      },
+      {
+        "qty": 4,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 2,
+        "unit": "krm",
+        "item": "natriumbensoat"
+      }
+    ],
+    "steps": [
+      "Repa bären och skölj dem. Skala äpplena och kärna ur dem. Skär dem sedan i mindre bitar.",
+      "Lägg allt i en gryta och värm upp på svag värme. Låt därefter koka under lock tills äppelbären är mjuka, cirka 15 minuter.",
+      "Tillsätt sockret och rör om tills det är upplöst. Koka sylten i ytterligare cirka 10 minuter.",
+      "Rör ut konserveringsmedlet i lite av sylten och blanda i resten. Häll upp på varma, väl rengjorda burkar. Förslut väl."
+    ]
+  },
+  {
+    "id": "slanbarsgele",
+    "title": "Slånbärsgele",
+    "category": "Fika",
+    "summary": "Gele på frostbitna slånbär, cirka 1 ½ liter.",
+    "note": "Sidan ligger på tvären. Jämför gelatinet och sockermängden med fotot.",
+    "credit": "Grevinnans goda",
+    "minutes": 60,
+    "servings": 1,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115255.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "l",
+        "item": "frostbitna slånbär"
+      },
+      {
+        "qty": 10,
+        "unit": "dl",
+        "item": "vatten"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "påse gul gelatin"
+      },
+      {
+        "qty": 14,
+        "unit": "dl",
+        "item": "socker"
+      }
+    ],
+    "steps": [
+      "Rensa och skölj bären. Lägg dem i en kastrull och tillsätt vatten. Koka bären under lock i cirka 15 minuter. Tryck bären mot kastrullkanten så att skalet brister.",
+      "Häll upp bärmassan i en silställning och låt den självrinna.",
+      "Mät upp saften. Den bör vara cirka 1 liter, annars tillsätts vatten. Koka upp saften.",
+      "Tillsätt socker och rör om tills det är upplöst. Koka därefter saften i ytterligare någon minut.",
+      "Rör ut gelatinet i lite varm saft och blanda i resten. Häll upp på varma, väl rengjorda glas. Förslut väl."
+    ]
+  },
+  {
+    "id": "grevinnelan",
+    "title": "Grevinnelan",
+    "category": "Efterrätt",
+    "summary": "Paj med grevinnans sylt, cirka 10 bitar. Sylten står på bilden från sidan innan.",
+    "note": "Pajen står på första bilden och hänvisar till sylten på sidan 77, som är den andra bilden.",
+    "credit": "Grevinnans goda",
+    "minutes": 60,
+    "servings": 10,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115312.jpg",
+    "ingredients": [
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "bakpulver"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 125,
+        "unit": "g",
+        "item": "smör eller margarin"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "grevinnans sylt, se fläderbärssylten"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg, till pensling"
+      }
+    ],
+    "steps": [
+      "Sätt ugnen på 200°. Blanda mjöl, bakpulver och socker. Hacka ner smöret och arbeta till en deg med ägget.",
+      "Kavla ut två tredjedelar och klä en pajform, cirka 25 cm. Bred på sylten.",
+      "Kavla ut resten, skär strimlor och lägg som ett galler. Pensla och grädda i 20–25 minuter.",
+      "Servera ljummen med vispgrädde."
+    ],
+    "images": [
+      "/images/bok/20261006_115312.jpg",
+      "/images/bok/20261006_115255.jpg"
+    ]
+  },
+  {
+    "id": "ronnbarspaj",
+    "title": "Rönnbärspaj",
+    "category": "Efterrätt",
+    "summary": "Paj med rönnbärssylt, cirka 6 personer.",
+    "note": "Uppslaget är tätt. Jämför hela gör-så-här med fotot.",
+    "credit": "Grevinnans goda",
+    "minutes": 50,
+    "servings": 6,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115312.jpg",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "st",
+        "item": "äggulor"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 4,
+        "unit": "dl",
+        "item": "vispgrädde"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "rönnbärssylt"
+      }
+    ],
+    "steps": [
+      "Jämför deg och gräddning med fotot. Fyll pajen med äggulor, socker, vispgrädde och rönnbärssylt enligt bilden."
+    ]
+  },
+  {
+    "id": "fladerbarssaft",
+    "title": "Fläderbärssaft",
+    "category": "Fika",
+    "summary": "Saft på fläderbär, cirka 12 dl.",
+    "note": "Sockermängden ligger trångt på bilden. Jämför med fotot.",
+    "credit": "Grevinnans goda",
+    "minutes": 40,
+    "servings": 1,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115312.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "l",
+        "item": "fläderbär"
+      },
+      {
+        "qty": 6,
+        "unit": "dl",
+        "item": "vatten"
+      },
+      {
+        "qty": 1,
+        "unit": "krm",
+        "item": "natriumbensoat"
+      }
+    ],
+    "steps": [
+      "Rensa och skölj bären. Koka dem med vattnet och låt saften självrinna.",
+      "Mät upp saften, tillsätt socker enligt fotot och koka upp. Rör ut natriumbensoatet i lite saft och blanda i resten.",
+      "Häll upp på varma, väl rengjorda flaskor."
+    ]
+  },
+  {
+    "id": "ronnbarssaft",
+    "title": "Rönnbärssaft",
+    "category": "Fika",
+    "summary": "Saft på frostbitna rönnbär.",
+    "note": "Jämför sockermängden med fotot.",
+    "credit": "Grevinnans goda",
+    "minutes": 40,
+    "servings": 1,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115312.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "l",
+        "item": "frostbitna rönnbär"
+      },
+      {
+        "qty": 6,
+        "unit": "dl",
+        "item": "vatten"
+      },
+      {
+        "qty": 1,
+        "unit": "krm",
+        "item": "natriumbensoat"
+      }
+    ],
+    "steps": [
+      "Rensa och skölj bären. Koka dem med vattnet och låt saften självrinna.",
+      "Tillsätt socker enligt fotot och koka upp. Konservera med natriumbensoat och häll upp."
+    ]
+  },
+  {
+    "id": "ronnbarssylt",
+    "title": "Rönnbärssylt",
+    "category": "Fika",
+    "summary": "Sylt på frostbitna rönnbär, cirka 13 dl.",
+    "note": "Jämför vätska och konserveringsmedel med fotot.",
+    "credit": "Grevinnans goda",
+    "minutes": 45,
+    "servings": 1,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115312.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "l",
+        "item": "frostbitna rönnbär"
+      },
+      {
+        "qty": 9,
+        "unit": "dl",
+        "item": "socker"
+      }
+    ],
+    "steps": [
+      "Repa, rensa och skölj bären. Koka dem mjuka och rör ner sockret.",
+      "Koka sylten enligt fotot, rör ut konserveringsmedlet och häll upp på varma burkar."
+    ]
+  },
+  {
+    "id": "slanbarssaft",
+    "title": "Slånbärssaft",
+    "category": "Fika",
+    "summary": "Saft på frostbitna slånbär, cirka 9 dl.",
+    "note": "",
+    "credit": "Grevinnans goda",
+    "minutes": 40,
+    "servings": 1,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115312.jpg",
+    "ingredients": [
+      {
+        "qty": 3,
+        "unit": "l",
+        "item": "frostbitna slånbär"
+      },
+      {
+        "qty": 6,
+        "unit": "dl",
+        "item": "socker för varje avrunnen saft"
+      },
+      {
+        "qty": 1,
+        "unit": "krm",
+        "item": "natriumbensoat"
+      }
+    ],
+    "steps": [
+      "Rensa och skölj bären. Koka dem och låt saften självrinna.",
+      "Mät saften och tillsätt 6 dl socker för varje liter avrunnen saft. Koka upp, konservera och häll på flaskor."
+    ]
+  },
+  {
+    "id": "frasvafflor-med-bakpulver",
+    "title": "Frasvåfflor med bakpulver",
+    "category": "Fika",
+    "summary": "Frasiga våfflor utan jäst, gräddade i våffeljärn.",
+    "note": "",
+    "credit": "Våfflor.se",
+    "minutes": 20,
+    "servings": 8,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115352.jpg",
+    "ingredients": [
+      {
+        "qty": 125,
+        "unit": "g",
+        "item": "smör eller margarin"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "gräddmjölk"
+      },
+      {
+        "qty": 4,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "bakpulver"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "iskallt vatten"
+      }
+    ],
+    "steps": [
+      "Smält matfettet och låt det svalna. Vispa samman mjölk, mjöl, ägg och bakpulver till en slät smet.",
+      "Rör i det smälta smöret och vattnet. Hetta upp våffeljärnet och grädda."
+    ]
+  },
+  {
+    "id": "frasvafflor-med-jast",
+    "title": "Frasvåfflor med jäst",
+    "category": "Fika",
+    "summary": "Våffelsmet som sväller i två timmar.",
+    "note": "",
+    "credit": "Våfflor.se",
+    "minutes": 150,
+    "servings": 8,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115352.jpg",
+    "ingredients": [
+      {
+        "qty": 25,
+        "unit": "g",
+        "item": "jäst"
+      },
+      {
+        "qty": 5,
+        "unit": "dl",
+        "item": "kall mjölk"
+      },
+      {
+        "qty": 4.5,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 2.5,
+        "unit": "tsk",
+        "item": "salt"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "smält margarin eller smör"
+      }
+    ],
+    "steps": [
+      "Lös jästen i hälften av mjölken. Tillsätt mjölet och rör eller vispa slätt. Rör i resten av mjölken tillsammans med det smälta smöret.",
+      "Täck bunken med lock eller plastfolie och låt svälla i två timmar. Grädda."
+    ]
+  },
+  {
+    "id": "frasvafflor",
+    "title": "Frasvåfflor",
+    "category": "Fika",
+    "summary": "Tunna frasvåfflor, 8–9 lagar. Gräddas cirka 2 ½ minut.",
+    "note": "",
+    "credit": "Mormors kokbok",
+    "minutes": 20,
+    "servings": 8,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115414.jpg",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "dl",
+        "item": "tjock grädde"
+      },
+      {
+        "qty": 2.5,
+        "unit": "dl",
+        "item": "kallt vatten"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "vetemjöl"
+      }
+    ],
+    "steps": [
+      "Vispa grädden till skum. Blanda i vattnet och rör till sist i mjölet.",
+      "Värm våffeljärnet och smörj det till första lagen. Grädda våfflorna cirka 2 ½ minuter.",
+      "Servera med socker, sylt och vispad grädde."
+    ]
+  },
+  {
+    "id": "kalasvafflor",
+    "title": "Kalasvåfflor",
+    "category": "Fika",
+    "summary": "Våfflor med smör och grädde, 8–9 lagar.",
+    "note": "",
+    "credit": "Mormors kokbok",
+    "minutes": 25,
+    "servings": 8,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115414.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 1.5,
+        "unit": "dl",
+        "item": "vatten"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "mjöl"
+      },
+      {
+        "qty": 3,
+        "unit": "msk",
+        "item": "smält smör"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "tjock grädde"
+      }
+    ],
+    "steps": [
+      "Vispa samman mjölet och vattnet. Vispa ner äggen i smeten samt det smälta smöret och grädden, vispad till hårt skum.",
+      "Värm upp våffeljärnet och smörj det till den första laggen. Grädda våfflorna 2 ½ minuter, eller tills de är gulbruna och frasiga.",
+      "Lägg dem på ett galler. Servera med socker, sylt och vispad grädde."
+    ]
+  },
+  {
+    "id": "enkla-frasvafflor",
+    "title": "Enkla frasvåfflor",
+    "category": "Fika",
+    "summary": "Jästa frasvåfflor, 8 lagar. Smeten jäser ungefär 1 timme.",
+    "note": "Första raden i metoden är tät. Jämför med fotot om sockret hör till jäsningen.",
+    "credit": "Mormors kokbok",
+    "minutes": 80,
+    "servings": 8,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115419.jpg",
+    "ingredients": [
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "mjöl"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "item": "jäst"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "smält smör"
+      },
+      {
+        "qty": 4,
+        "unit": "dl",
+        "item": "mjölk"
+      }
+    ],
+    "steps": [
+      "Lös upp jästen i litet socker och vispa ihop mjöl, mjölk och jäst. Smält smöret, låt det svalna och tillsätt det sist.",
+      "Låt smeten jäsa ungefär 1 timme.",
+      "Värm upp våffeljärnet och grädda våfflorna cirka 2 minuter, så de blir frasiga. Servera med socker, sylt eller vispad grädde."
+    ]
+  },
+  {
+    "id": "aggvafflor",
+    "title": "Äggvåfflor",
+    "category": "Fika",
+    "summary": "Våfflor med bakpulver, cirka 6 lagar. Gräddas cirka 1 ½ minut.",
+    "note": "",
+    "credit": "Mormors kokbok",
+    "minutes": 20,
+    "servings": 6,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115419.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 2.5,
+        "unit": "dl",
+        "item": "mjölk"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "margarin"
+      },
+      {
+        "qty": 2.5,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "bakpulver"
+      }
+    ],
+    "steps": [
+      "Vispa samman gulor och mjölk och rör ner mjölet blandat med bakpulver. Tillsätt det smälta smöret. Vispa vitorna till hårt skum och blanda dem försiktigt i smeten.",
+      "Värm upp våffeljärnet och smörj det till första lagen. Grädda våfflorna cirka 1 ½ minut.",
+      "Servera med socker och sylt eller med smör, socker och kanel."
+    ]
+  },
+  {
+    "id": "delikatessvafflor",
+    "title": "Delikatessvåfflor",
+    "category": "Fika",
+    "summary": "Våfflor med potatismjöl och citron, 5 lagar.",
+    "note": "",
+    "credit": "Mormors kokbok",
+    "minutes": 20,
+    "servings": 5,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115423.jpg",
+    "ingredients": [
+      {
+        "qty": 3,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "margarin"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "socker"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "potatismjöl"
+      },
+      {
+        "qty": 0.5,
+        "unit": "st",
+        "item": "rivet skal av citron"
+      }
+    ],
+    "steps": [
+      "Vispa ägg och socker vitt och pösigt. Rör smöret och sätt till det under kraftig rörning. Blanda i rivet citronskal och sist mjölet.",
+      "Värm upp våffeljärnet och smörj det. Lägg 2 matskedar av smeten på järnet och grädda våfflorna cirka 1 minut."
+    ]
+  },
+  {
+    "id": "kejsarvafflor",
+    "title": "Kejsarvåfflor",
+    "category": "Fika",
+    "summary": "Våfflor på ett paket kejsarplättar, 6–7 lagar. Gräddas 1 ½–2 minuter.",
+    "note": "",
+    "credit": "Mormors kokbok",
+    "minutes": 15,
+    "servings": 6,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115423.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "paket kejsarplättar"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "vatten"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "smält smör eller vispad grädde"
+      }
+    ],
+    "steps": [
+      "Blanda pulvret med vatten och smält smör eller vispad grädde, enligt beskrivningen på paketet.",
+      "Värm upp våffeljärnet och smörj det till första lagen. Grädda våfflorna 1 ½–2 minuter."
+    ]
+  },
+  {
+    "id": "lax-eller-krafttimbal",
+    "title": "Lax- eller kräfttimbal",
+    "category": "Förrätt",
+    "summary": "Kall rätt för 6–8 personer, med grädde, majonnäs, dill och gelatin. Lappen har ingen rubrik.",
+    "note": "Rubriken saknas. Första ordet kan vara lax. Till höger står kräftor och torsk, och överst 6–8 personer.",
+    "credit": "Mormors kokbok",
+    "minutes": 30,
+    "servings": 8,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115439.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "kg",
+        "item": "lax eller kräftor, eller torsk"
+      },
+      {
+        "qty": 1.5,
+        "unit": "dl",
+        "item": "vispad nöjgrädde"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "gräddfil"
+      },
+      {
+        "qty": 1.5,
+        "unit": "dl",
+        "item": "majonnäs"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "rullsås"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "dill"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsk",
+        "item": "salt"
+      },
+      {
+        "qty": 8,
+        "unit": "st",
+        "item": "gelatinblad"
+      }
+    ],
+    "steps": [
+      "Inget gör-så-här står på lappen. Jämför med fotot."
+    ]
+  },
+  {
+    "id": "hallongrottor",
+    "title": "Hallongrottor",
+    "category": "Fika",
+    "summary": "Handskrivna hallongrottor, gräddade i 10 minuter.",
+    "note": "Raden med 200 g säger inte vad det är. Den är läst som hallonsylt. En tryckt variant finns också i boken.",
+    "credit": "Mormors kokbok",
+    "minutes": 10,
+    "servings": 20,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115447.jpg",
+    "ingredients": [
+      {
+        "qty": 125,
+        "unit": "g",
+        "item": "smör"
+      },
+      {
+        "qty": 3.25,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 0.5,
+        "unit": "dl",
+        "item": "potatismjöl"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "vaniljsocker"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "bakpulver"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "item": "hallonsylt"
+      }
+    ],
+    "steps": [
+      "Mängderna står på lappen, men inte hur degen rörs ihop. Grädda i 10 minuter. Jämför med fotot."
+    ]
+  },
+  {
+    "id": "snickerskaka",
+    "title": "Snickerskaka",
+    "category": "Fika",
+    "summary": "Kladdig kaka med sirap, kokos och jordnötssmör, täckt med ljus choklad.",
+    "note": "I kanten står en parentes som är svårtydd, något om 3–5 cm och att det inte får koka. Jämför med fotot. Mängderna är skrivna med stora L och DL.",
+    "credit": "Mormors kokbok",
+    "minutes": 30,
+    "servings": 20,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115457.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "sirap"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "kokos"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "burk jordnötssmör"
+      },
+      {
+        "qty": 1,
+        "unit": "l",
+        "item": "riscrisp"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "vaniljsocker"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "item": "ljus choklad"
+      }
+    ],
+    "steps": [
+      "Rör ner sirap, socker, kokos och jordnötssmör. Bred ut på bakplåtspapper tillsammans med riscrisp och vaniljsocker.",
+      "Smält chokladen och bred ovanpå. Skär i bitar när kakan kallnat."
+    ]
+  },
+  {
+    "id": "sproda-skorpor",
+    "title": "Spröda skorpor",
+    "category": "Bakverk",
+    "summary": "Snabba skorpor med nötter och solrosfrön, cirka 30 stycken. Klara på en timme.",
+    "note": "Förvara skorporna i en lufttät burk, så håller de i flera veckor.",
+    "credit": "Malin Carlsson",
+    "minutes": 60,
+    "servings": 30,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115524.jpg",
+    "ingredients": [
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "rumsvarmt smör"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "farinsocker"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "vaniljsocker"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "osaltade cashewnötter"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "osaltade skalade pistaschnötter"
+      },
+      {
+        "qty": 0.75,
+        "unit": "dl",
+        "item": "solrosfrön"
+      },
+      {
+        "qty": 5,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "bakpulver"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "florsocker, till garnering"
+      }
+    ],
+    "steps": [
+      "Sätt ugnen på 200°. Vispa smör, farinsocker och vaniljsocker ljust och fluffigt. Tillsätt äggen ett i taget.",
+      "Hacka nötterna grovt. Tillsätt dessa och solrosfröna i smeten.",
+      "Blanda vetemjölet med bakpulvret, rör ner i skålen och blanda snabbt ihop till en deg.",
+      "Dela degen i två delar, rulla varje bit till en plåtlång längd och platta till något. Grädda mitt i ugnen i cirka 20 minuter.",
+      "Ta ut och snitta i cirka 2 cm breda bitar. Vänd upp en snittyta och grädda ytterligare 5 minuter. Vänd och grädda 5 minuter till.",
+      "Garnera med florsocker innan servering."
+    ]
+  },
+  {
+    "id": "goda-grotbullar",
+    "title": "Goda grötbullar",
+    "category": "Bakverk",
+    "summary": "Frukostbröd med havregrynsgröt i degen. 9 stycken, cirka 3 timmar.",
+    "note": "Minska saltet med cirka en halv tesked om gröten redan är saltad.",
+    "credit": "Mette Ankarloo",
+    "minutes": 180,
+    "servings": 9,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115545.jpg",
+    "ingredients": [
+      {
+        "qty": 25,
+        "unit": "g",
+        "item": "jäst"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "kallt vatten"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "salt"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "linfrön"
+      },
+      {
+        "qty": 8.5,
+        "unit": "dl",
+        "item": "vetemjöl special"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "havregryn, till gröten"
+      },
+      {
+        "qty": 4,
+        "unit": "dl",
+        "item": "vatten, till gröten"
+      }
+    ],
+    "steps": [
+      "Blanda havregryn och vatten och mikra på högsta effekt i fyra minuter. Gröten kan också kokas på spisen. Låt kallna helt.",
+      "Lös jästen i vattnet. Blanda i gröten och resten av ingredienserna. Arbeta till en jämn, lite klibbig deg. Täck med plastfolie och låt jäsa i två timmar.",
+      "Sätt ugnen på 225°. Stjälp ut degen på mjölat bakbord. Dela den i 9 delar och forma till släta bullar.",
+      "Grädda i 15–20 minuter. Låt dem svalna på plåten utan bakduk. Frys det som inte går åt samma dag."
+    ]
+  },
+  {
+    "id": "hallongrottor-lattbakade",
+    "title": "Hallongrottor, lättbakade",
+    "category": "Fika",
+    "summary": "Lättbakade hallongrottor som smälter i munnen, cirka 30 stycken. 200° i 12–15 minuter.",
+    "note": "Ur Året Runt nr 41, 1986. En handskriven variant finns också i boken.",
+    "credit": "Året Runt",
+    "minutes": 30,
+    "servings": 30,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115600.jpg",
+    "ingredients": [
+      {
+        "qty": 125,
+        "unit": "g",
+        "item": "smör eller margarin"
+      },
+      {
+        "qty": 0.75,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 2.25,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsk",
+        "item": "bakpulver"
+      },
+      {
+        "qty": 3,
+        "unit": "msk",
+        "item": "marsanpulver, för extra god smak"
+      },
+      {
+        "qty": 0.75,
+        "unit": "dl",
+        "item": "hallonsylt"
+      }
+    ],
+    "steps": [
+      "Arbeta ihop alla ingredienserna utom sylten till en smidig deg. Forma till bollar och lägg i små pappersformar.",
+      "Gör en fördjupning i mitten och lägg i en klick sylt.",
+      "Grädda mitt i ugnen i 200° i 12–15 minuter."
+    ]
+  },
+  {
+    "id": "langpannebrod",
+    "title": "Långpannebröd",
+    "category": "Bakverk",
+    "summary": "Bröd till 4–5 limpor, från sidan Baksidan.",
+    "note": "Sidan har flera recept i täta spalter. Jämför mängder och grader med fotot.",
+    "credit": "Anette Nilsson",
+    "minutes": 90,
+    "servings": 4,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115617.jpg",
+    "ingredients": [
+      {
+        "qty": 50,
+        "unit": "g",
+        "item": "jäst"
+      },
+      {
+        "qty": 1,
+        "unit": "l",
+        "item": "mjölk eller vatten"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "smält margarin"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "salt, socker och vetemjöl enligt fotot"
+      }
+    ],
+    "steps": [
+      "Lös jästen i ljummen vätska och arbeta ihop degen enligt fotot.",
+      "Jäs och grädda längderna. Jämför tid och temperatur med bilden."
+    ]
+  },
+  {
+    "id": "ragskiktsbrod",
+    "title": "Rågskiktsbröd med farinsocker",
+    "category": "Bakverk",
+    "summary": "Matbröd med farinsocker, från samma uppslag som långpannebrödet.",
+    "note": "Receptet delar bild med de andra bröden på Baksidan.",
+    "credit": "Anette Nilsson",
+    "minutes": 80,
+    "servings": 2,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115617.jpg",
+    "ingredients": [
+      {
+        "qty": null,
+        "unit": "",
+        "item": "ingredienser enligt fotot"
+      }
+    ],
+    "steps": [
+      "Blanda och grädda enligt fotot. Uppslaget är tätt, så mängderna är inte avskrivna här."
+    ]
+  },
+  {
+    "id": "frukostbullar-med-russin",
+    "title": "Frukostbullar med russin",
+    "category": "Bakverk",
+    "summary": "12 frukostbullar med russin, från Baksidan.",
+    "note": "Spalterna ligger tätt. Jämför med fotot.",
+    "credit": "Anette Nilsson",
+    "minutes": 70,
+    "servings": 12,
+    "yieldUnit": "bullar",
+    "featured": false,
+    "image": "/images/bok/20261006_115617.jpg",
+    "ingredients": [
+      {
+        "qty": 25,
+        "unit": "g",
+        "item": "jäst"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "mjölk, vetemjöl, margarin och russin enligt fotot"
+      }
+    ],
+    "steps": [
+      "Gör degen, arbeta in russinen och grädda bullarna enligt fotot."
+    ]
+  },
+  {
+    "id": "russinklickar",
+    "title": "Russinklickar",
+    "category": "Fika",
+    "summary": "Cirka 60 klickar med russin, gräddade i 175°.",
+    "note": "Ingrediensraderna är delvis skymda av spalten intill.",
+    "credit": "Anette Nilsson",
+    "minutes": 40,
+    "servings": 60,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115617.jpg",
+    "ingredients": [
+      {
+        "qty": 210,
+        "unit": "g",
+        "item": "margarin"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "strösocker"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "vetemjöl, bakpulver och russin enligt fotot"
+      }
+    ],
+    "steps": [
+      "Blanda margarin och socker. Tillsätt resten enligt fotot och klicka ut kakorna.",
+      "Grädda i 175° i 10–12 minuter. Jämför tiden med bilden."
+    ]
+  },
+  {
+    "id": "kanelbullar-ica",
+    "title": "Kanelbullar",
+    "category": "Fika",
+    "summary": "20 kanelbullar från ICA. Degen jäser cirka 30 minuter och bullarna gräddas i 250° i cirka 8 minuter.",
+    "note": "",
+    "credit": "ICA",
+    "minutes": 60,
+    "servings": 20,
+    "yieldUnit": "bullar",
+    "featured": false,
+    "image": "/images/bok/20261006_115630.jpg",
+    "ingredients": [
+      {
+        "qty": 25,
+        "unit": "g",
+        "item": "jäst, ½ paket à 50 g"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "item": "smör eller margarin"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "mjölk"
+      },
+      {
+        "qty": 0.5,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 1,
+        "unit": "krm",
+        "item": "salt"
+      },
+      {
+        "qty": 8,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "item": "smör eller margarin, till fyllningen"
+      },
+      {
+        "qty": 0.5,
+        "unit": "dl",
+        "item": "socker, till fyllningen"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "malen kanel, till fyllningen"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg, till pensling"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "pärlsocker"
+      }
+    ],
+    "steps": [
+      "Smula jästen i en bunke. Smält matfettet i en kastrull. Tillsätt mjölken och värm till fingervarmt, 37°. Häll lite av degvätskan över jästen och rör tills den löst sig.",
+      "Tillsätt resten av degvätskan, socker, salt och nästan allt vetemjöl. Spara lite till utbakningen. Arbeta degen smidig. Låt jäsa övertäckt i cirka 30 minuter.",
+      "Rör smör, socker och kanel till fyllningen. Kavla ut degen, bred på fyllningen och rulla ihop. Skär cirka 20 bitar.",
+      "Låt jäsa under bakduk i cirka 20 minuter. Pensla med ägg och strö över pärlsocker. Grädda i 250° i cirka 8 minuter."
+    ]
+  },
+  {
+    "id": "mazarinkaka-form",
+    "title": "Mazarinkaka",
+    "category": "Fika",
+    "summary": "Mazarinkaka i form, med mandelmassa. Från samma uppslag som syltrullen och tigerkakan.",
+    "note": "Uppslaget är vikt och spalterna är täta. Jämför mängderna med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 45,
+    "servings": 12,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115700.jpg",
+    "ingredients": [
+      {
+        "qty": null,
+        "unit": "",
+        "item": "smör eller margarin, socker, ägg och mandelmassa enligt fotot"
+      }
+    ],
+    "steps": [
+      "Blanda degen och fyllningen enligt fotot. Grädda i formen. Jämför tid och temperatur med bilden."
+    ]
+  },
+  {
+    "id": "syltrulle",
+    "title": "Syltrulle",
+    "category": "Fika",
+    "summary": "Rulltårta med sylt, från samma uppslag som mazarinkakan.",
+    "note": "Jämför mängder och gräddning med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 30,
+    "servings": 10,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115700.jpg",
+    "ingredients": [
+      {
+        "qty": null,
+        "unit": "",
+        "item": "ägg, socker, vetemjöl, bakpulver och sylt enligt fotot"
+      }
+    ],
+    "steps": [
+      "Grädda en tunn kaka, bred på sylt och rulla ihop enligt fotot."
+    ]
+  },
+  {
+    "id": "tigerkaka-rulle",
+    "title": "Tigerkaka",
+    "category": "Fika",
+    "summary": "Marmorerad rulltårta med kakao. En annan tigerkaka finns redan i boken.",
+    "note": "Det här är rulltårtan på klippet, inte den handskrivna tigerkakan som redan finns i boken. Jämför hela mängdlistan med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 35,
+    "servings": 10,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115700.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "mjölk"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "rivet skal av ½ citron"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "kakao"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "ägg, socker, vetemjöl och bakpulver enligt fotot"
+      }
+    ],
+    "steps": [
+      "Sätt ugnen på 175°. Blanda smeten och rör ner kakao i en del, så kakan blir marmorerad.",
+      "Grädda, vänd upp kakan och rulla den enligt fotot."
+    ]
+  },
+  {
+    "id": "kanelkaka-choklad",
+    "title": "Kanelkaka",
+    "category": "Fika",
+    "summary": "Kaka med kanelfyllning, från uppslaget med nötrutor.",
+    "note": "Sidan ligger på tvären och delar bild med nötrutorna. Jämför med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 45,
+    "servings": 12,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115708.jpg",
+    "ingredients": [
+      {
+        "qty": null,
+        "unit": "",
+        "item": "deg och kanelfyllning enligt fotot"
+      }
+    ],
+    "steps": [
+      "Gör degen, bred på kanelfyllningen, rulla ihop och grädda enligt fotot."
+    ]
+  },
+  {
+    "id": "notrutor-med-glasyr",
+    "title": "Nötrutor med glasyr",
+    "category": "Fika",
+    "summary": "Rutor med hasselnötter och chokladglasyr, cirka 35 bitar.",
+    "note": "Glasyrens mängder är delvis skymda. Jämför med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 35,
+    "servings": 35,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115708.jpg",
+    "ingredients": [
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "smör eller margarin"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": null,
+        "unit": "",
+        "item": "hasselnötter, vetemjöl och bakpulver enligt fotot"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "kakao, till glasyren"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "kaffe, till glasyren"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "item": "florsocker, till glasyren"
+      }
+    ],
+    "steps": [
+      "Blanda smeten och grädda enligt fotot. Skär i rutor.",
+      "Blanda glasyren och bred över rutorna."
+    ]
+  },
+  {
+    "id": "attikslag",
+    "title": "Ättikslag",
+    "category": "Förrätt",
+    "summary": "En liten lapp med ättika och vatten, utan rubrik.",
+    "note": "Lappen har ingen rubrik och sista raderna är svårlästa. Datumet ser ut som 11/7. Jämför med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 15,
+    "servings": 1,
+    "yieldUnit": "portioner",
+    "featured": false,
+    "image": "/images/bok/20261006_115719.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "ättika"
+      },
+      {
+        "qty": 6,
+        "unit": "dl",
+        "item": "vatten"
+      },
+      {
+        "qty": 4,
+        "unit": "st",
+        "item": "ägg"
+      }
+    ],
+    "steps": [
+      "Häll i allt. Kör hälften, stång av i 10 minuter och kör resten.",
+      "Kör 3–4 ägg med bara vatten."
+    ]
+  },
+  {
+    "id": "mockarutor",
+    "title": "Mockarutor",
+    "category": "Fika",
+    "summary": "Chokladrutor med glasyr. Ingredienserna står på första lappen och gräddningen på den andra.",
+    "note": "Receptet är två lappar. Kakaon och glasyren står på den andra. Några ord är svårlästa, jämför med fotona.",
+    "credit": "Mormors kokbok",
+    "minutes": 40,
+    "servings": 24,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115730.jpg",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 6,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "item": "margarin"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "mjölk"
+      },
+      {
+        "qty": 6,
+        "unit": "dl",
+        "item": "mjöl"
+      },
+      {
+        "qty": 4,
+        "unit": "tsk",
+        "item": "bakpulver"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "vaniljsocker"
+      },
+      {
+        "qty": 6,
+        "unit": "msk",
+        "item": "kakao"
+      },
+      {
+        "qty": 4,
+        "unit": "msk",
+        "item": "margarin, till glasyren"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "florsocker, till glasyren"
+      },
+      {
+        "qty": 2,
+        "unit": "msk",
+        "item": "kakao, till glasyren"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "vaniljsocker, till glasyren"
+      },
+      {
+        "qty": 4,
+        "unit": "tsk",
+        "item": "starkt kaffe, till glasyren"
+      }
+    ],
+    "steps": [
+      "Blanda ägg, socker, margarin, mjölk, mjöl, bakpulver, vaniljsocker och kakao.",
+      "Grädda i 175° i 30 minuter.",
+      "Blanda glasyren och bred över kakan."
+    ],
+    "images": [
+      "/images/bok/20261006_115730.jpg",
+      "/images/bok/20261006_115735.jpg"
+    ]
+  },
+  {
+    "id": "glaskaka",
+    "title": "Glaskaka",
+    "category": "Fika",
+    "summary": "Kaka med kokos och smält smör, gräddad i 200° i en form på 28 cm.",
+    "note": "Tiden står inte utskriven på lappen, bara 200° och 28 cm.",
+    "credit": "Mormors kokbok",
+    "minutes": 35,
+    "servings": 12,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115742.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 3,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 1.5,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "salt"
+      },
+      {
+        "qty": 4,
+        "unit": "msk",
+        "item": "kokos"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "smält smör"
+      }
+    ],
+    "steps": [
+      "Blanda ägg och socker pösigt. Tillsätt vetemjöl, salt, kokos och smält smör.",
+      "Grädda i 200° i en form på 28 cm. Jämför tiden med fotot."
+    ]
+  },
+  {
+    "id": "russinkakor-handskrivna",
+    "title": "Russinkakor, handskrivna",
+    "category": "Fika",
+    "summary": "Handskrivna kakor med russin. 225° står överst.",
+    "note": "Lappen är kort och några ord är svårlästa. Jämför med fotot.",
+    "credit": "Mormors kokbok",
+    "minutes": 25,
+    "servings": 20,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115751.jpg",
+    "ingredients": [
+      {
+        "qty": 125,
+        "unit": "g",
+        "item": "smör"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "mjöl"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "bakpulver"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "russin"
+      }
+    ],
+    "steps": [
+      "Blanda smör, socker, ägg, mjöl och bakpulver. Vänd ner russinen.",
+      "Grädda i 225°. Jämför tiden med fotot."
+    ]
+  },
+  {
+    "id": "borgholms-pepparkaka",
+    "title": "Borgholms pepparkaka",
+    "category": "Fika",
+    "summary": "Mjuk pepparkaka gräddad i 175° i cirka 45 minuter.",
+    "note": "Klippet ligger upp och ner. En annan pepparkaka finns redan i boken.",
+    "credit": "Mormors kokbok",
+    "minutes": 45,
+    "servings": 12,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115811.jpg",
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 4,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "bakpulver"
+      },
+      {
+        "qty": 1,
+        "unit": "msk",
+        "item": "kanel"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsk",
+        "item": "nejlikor"
+      },
+      {
+        "qty": 4,
+        "unit": "st",
+        "item": "ingefära, mått enligt fotot"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsk",
+        "item": "hackad mandel"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "grädde"
+      },
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 5,
+        "unit": "msk",
+        "item": "smält smör eller margarin"
+      }
+    ],
+    "steps": [
+      "Blanda alla torra ingredienser i en bunke. Tillsätt grädde, ägg och smält smör eller margarin och rör till en jämn smet.",
+      "Häll i en smord och bröad form och grädda i 175° i cirka 45 minuter."
+    ]
+  },
+  {
+    "id": "lauras-notkaka",
+    "title": "Lauras nötkaka",
+    "category": "Fika",
+    "summary": "Nötkaka gräddad i 175° i cirka 50 minuter.",
+    "note": "Klippet ligger upp och ner.",
+    "credit": "Mormors kokbok",
+    "minutes": 50,
+    "servings": 12,
+    "yieldUnit": "bitar",
+    "featured": false,
+    "image": "/images/bok/20261006_115820.jpg",
+    "ingredients": [
+      {
+        "qty": 100,
+        "unit": "g",
+        "item": "smör eller margarin"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "socker"
+      },
+      {
+        "qty": 2,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "mjölk"
+      },
+      {
+        "qty": 1,
+        "unit": "hg",
+        "item": "nötkärnor"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 2,
+        "unit": "tsk",
+        "item": "bakpulver"
+      }
+    ],
+    "steps": [
+      "Rör fett och socker poröst. Tillsätt äggen ett i sänder och därefter mjölken.",
+      "Mal nötterna och blanda dem med mjölet och bakpulvret. Rör ner det i smeten.",
+      "Häll i en avlång väl smord och bröad form. Grädda i 175° i cirka 50 minuter."
+    ]
+  },
+  {
+    "id": "skrabbeluckor",
+    "title": "Skrabbeluckor",
+    "category": "Fika",
+    "summary": "Små plättar till kaffet, av Agnes Åkerman i Helsingborg.",
+    "note": "",
+    "credit": "Agnes Åkerman",
+    "minutes": 15,
+    "servings": 12,
+    "yieldUnit": "stycken",
+    "featured": false,
+    "image": "/images/bok/20261006_115830.jpg",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "st",
+        "item": "ägg"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "strösocker"
+      },
+      {
+        "qty": 1,
+        "unit": "dl",
+        "item": "mjölk"
+      },
+      {
+        "qty": 2,
+        "unit": "dl",
+        "item": "vetemjöl"
+      },
+      {
+        "qty": 1,
+        "unit": "tsk",
+        "item": "bakpulver"
+      }
+    ],
+    "steps": [
+      "Vispa samman ägg, strösocker, mjölk, vetemjöl och bakpulver.",
+      "Stek som plättar, helst i plättlagg. Annars klickas smeten ut i en vanlig stekpanna och steks på båda sidor."
+    ]
   }
 ]

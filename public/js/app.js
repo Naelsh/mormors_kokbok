@@ -209,17 +209,34 @@ function heartButton(recipe, onPaper) {
   return `<button type="button" class="heart${onPaper ? " on-paper" : ""}" data-fav="${esc(recipe.id)}" aria-pressed="${saved}" aria-label="${esc(label)}">${heartIcon()}</button>`;
 }
 
+function recipeSources(recipe) {
+  const listed = Array.isArray(recipe.images) ? recipe.images : [];
+  const sources = [...listed, recipe.image].map(safeSrc).filter(Boolean);
+  return [...new Set(sources)];
+}
+
+function photoTag(src, alt, className, lazy) {
+  const name = className ? ` class="${className}"` : "";
+  return `<img${name} src="${esc(sitePath(src))}" alt="${esc(alt)}"${lazy ? ' loading="lazy"' : ""}>`;
+}
+
 function photo(recipe, className, lazy = false) {
-  const src = safeSrc(recipe.image);
+  const sources = recipeSources(recipe);
   const letter = esc(recipe.title.slice(0, 1));
-  if (!src) return `<div class="${className} photo-fallback" aria-hidden="true">${letter}</div>`;
-  return `<img class="${className}" src="${esc(sitePath(src))}" alt="${esc(recipe.title)}" data-letter="${letter}" ${lazy ? 'loading="lazy"' : ""}>`;
+  if (!sources.length) return `<div class="${className} photo-fallback" aria-hidden="true">${letter}</div>`;
+  if (sources.length === 1) return photoTag(sources[0], recipe.title, className, lazy);
+  const images = sources.map((src, index) => photoTag(src, `${recipe.title}, bild ${index + 1}`, "", lazy)).join("");
+  const setClass = className ? `photo-set ${className}` : "photo-set";
+  return `<span class="${setClass}">${images}</span>`;
 }
 
 function photoFrame(recipe) {
-  const src = safeSrc(recipe.image);
-  if (!src) return `<div class="frame">${photo(recipe, "")}</div>`;
-  return `<button type="button" class="frame zoom-photo" data-zoom aria-label="Visa bilden stort">${photo(recipe, "")}</button>`;
+  const sources = recipeSources(recipe);
+  if (!sources.length) return `<div class="frame">${photo(recipe, "")}</div>`;
+  return sources.map((src, index) => {
+    const label = sources.length > 1 ? `Visa bild ${index + 1} av ${sources.length} stort` : "Visa bilden stort";
+    return `<button type="button" class="frame zoom-photo" data-zoom aria-label="${label}">${photoTag(src, recipe.title, "", false)}</button>`;
+  }).join("");
 }
 
 function editorToken() {

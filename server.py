@@ -295,6 +295,14 @@ def build_recipe(data: dict, existing: dict | None, recipes: list[dict]) -> tupl
         for key in ("photoCredit", "photoLicense", "photoHref"):
             if existing.get(key):
                 recipe[key] = existing[key]
+        if image == local_image(existing.get("image")) and isinstance(existing.get("images"), list):
+            kept = []
+            for item in existing["images"]:
+                path = local_image(item)
+                if path and path not in kept:
+                    kept.append(path)
+            if len(kept) > 1:
+                recipe["images"] = kept
     return recipe, None
 
 
